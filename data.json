@@ -1,0 +1,21 @@
+<?php 
+
+  $feed = 'data/manifest-exhibition.xml';
+  $rawFeed = file_get_contents($feed);
+  $xml = new SimpleXmlElement($rawFeed);
+  
+  foreach($xml as $post)
+  {
+    $formatted[] = array(
+      'id' => (string)$post['id'],
+      'name' => (string)$post->name,
+      'time' => (string)date('M dS @ g:i a', strtotime($post->time)),
+      'message' => (string)$post->message,
+      'color' => (string)$post->color
+    );
+  }
+  
+  header('Content-type: application/json');
+  echo 'var posts = ' . json_encode($formatted) . ';';
+  
+?>
