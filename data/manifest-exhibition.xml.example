@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<root>
+  <post id="4ba024ca9ebaa">
+    <name>new test</name>
+    <time>2010-03-16T19:39:38-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba024c2be222">
+    <name>test</name>
+    <time>2010-03-16T19:39:30-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba024ad27db2">
+    <name>test</name>
+    <time>2010-03-16T19:39:09-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba024a189b37">
+    <name>test</name>
+    <time>2010-03-16T19:38:57-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba023b1b9d5a">
+    <name>test</name>
+    <time>2010-03-16T19:34:57-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba0238fb6abd">
+    <name>test</name>
+    <time>2010-03-16T19:34:23-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba0235462a86">
+    <name>test</name>
+    <time>2010-03-16T19:33:24-05:00</time>
+    <message><![CDATA[test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba021fb9a87e">
+    <name>Matt</name>
+    <time>2010-03-16T19:27:39-05:00</time>
+    <message><![CDATA[Test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba021d53c2ea">
+    <name>Matt</name>
+    <time>2010-03-16T19:27:01-05:00</time>
+    <message><![CDATA[Test]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba010992828e">
+    <name>steve</name>
+    <time>2010-03-16T18:13:29-05:00</time>
+    <message><![CDATA[party]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba00c2154311">
+    <name>Steve D</name>
+    <time>2010-03-16T17:54:25-05:00</time>
+    <message><![CDATA[I like Javascript]]></message>
+    <color>Green</color>
+  </post>
+  <post id="4ba00bf7552a8">
+    <name>Brian Goldsberry</name>
+    <time>2010-03-16T17:53:43-05:00</time>
+    <message><![CDATA[Hello People]]></message>
+    <color>Orange</color>
+  </post>
+  <post id="4ba00aeedc3cb">
+    <name>Matt</name>
+    <time>2010-03-16T17:49:18-05:00</time>
+    <message><![CDATA[Hello World!]]></message>
+    <color>Red</color>
+  </post>
+  <post id="4ba006de02d8b">
+    <name>Brian</name>
+    <time>2010-03-16T17:31:58-05:00</time>
+    <message><![CDATA[Hello, how are you?]]></message>
+    <color>Grey</color>
+  </post>
+</root>
