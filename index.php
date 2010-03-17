@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <script type="text/javascript" src="data.json"></script>
     <script type="text/javascript" src="javascript/jQuery.js"></script>
     <script type="text/javascript" src="javascript/FormUtil.js"></script>
     <script type="text/javascript" src="javascript/Validation.js"></script>
@@ -74,7 +73,7 @@
       <button name="post-something" id="post-something" type="submit">Post Something</button>
       
       <div id="canvas"></div>
-      
+      <ul id="posts"></ul>
     </div>
     
   </body>

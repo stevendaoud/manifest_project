@@ -16,6 +16,6 @@
   }
   
   header('Content-type: application/json');
-  echo 'var posts = ' . json_encode($formatted) . ';';
+  echo json_encode($formatted);
   
 ?>

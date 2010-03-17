@@ -4,8 +4,6 @@ $(function() {
   FormUtil.resetForm();
   FormUtil.openForm();
   FormUtil.closeForm();
-  
-  console.log(posts);
 });
 
 var FormUtil = {};
@@ -42,7 +40,8 @@ FormUtil.success = function() {
   $('#message').val('');
   $('#overlay').hide();
   $('#alert-contain').hide();
-  location.reload();
+
+  FormUtil.getJsonFile();
 };
 
 FormUtil.openForm = function() {
@@ -61,4 +60,16 @@ FormUtil.closeForm = function() {
   });
 };
 
+FormUtil.getJsonFile = function() {
+  $.getJSON('data.json', function(data) { 
+    var posts = $("#posts");
+    posts.empty();
 
+    $.each(data, function(i, item) {
+      var newListItem = $("<li></li>");
+      newListItem.html(item.message);
+
+      posts.append(newListItem);
+    });
+  });
+};
